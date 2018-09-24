@@ -1,7 +1,7 @@
 <template lang="html">
-  <v-card height="40rem" active-class="default-class chart-container">
-
-  </v-card>
+  <v-card
+    height="40rem"
+    active-class="default-class chart-container"/>
 </template>
 
 <script>

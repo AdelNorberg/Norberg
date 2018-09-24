@@ -1,5 +1,7 @@
 <template lang="html">
-  <v-card height="40rem" active-class="default-class chart-container">
+  <v-card
+    height="40rem"
+    active-class="default-class chart-container">
     <v-tabs fixed-tabs>
       <v-tab
         v-for="n in 3"

@@ -5,21 +5,41 @@
         <nuxt-link to="/landing">
           <v-toolbar-title class="display-1">Norberg</v-toolbar-title>
         </nuxt-link>
-        <v-spacer></v-spacer>
+        <v-spacer/>
         <nuxt-link to="/news">
-          <v-btn flat dark>NEWS</v-btn>
+          <v-btn
+            flat
+            dark>
+            NEWS
+          </v-btn>
         </nuxt-link>
         <nuxt-link to="/">
-          <v-btn flat dark>HOME</v-btn>
+          <v-btn
+            flat
+            dark>
+            HOME
+          </v-btn>
         </nuxt-link>
         <nuxt-link to="/about">
-          <v-btn flat dark>ABOUT</v-btn>
+          <v-btn
+            flat
+            dark>
+            ABOUT
+          </v-btn>
         </nuxt-link>
         <nuxt-link to="/problem">
-          <v-btn flat dark>PROBLEM</v-btn>
+          <v-btn
+            flat
+            dark>
+            PROBLEM
+          </v-btn>
         </nuxt-link>
-        <v-spacer></v-spacer>
-        <v-btn dark depressed large color="#5c85c9">
+        <v-spacer/>
+        <v-btn
+          dark
+          depressed
+          large
+          color="#5c85c9">
           <v-icon dark>search</v-icon>
         </v-btn>
       </v-layout>
@@ -27,11 +47,11 @@
     <v-container class="gl-v-container">
       <nuxt/>
     </v-container>
-    <footer-container></footer-container>
+    <footer-container/>
   </div>
 </template>
 
-<script> 
+<script>
 import footerContainer from '@/components/footer-container'
 
 export default {

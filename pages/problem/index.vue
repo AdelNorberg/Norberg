@@ -1,7 +1,14 @@
 <template lang="html">
   <v-layout justify-center>
-    <v-flex xs12  sm8  md8>
-      <v-card height="40rem" class="pt-4 pl-4">
+    <v-flex
+      xs12
+      sm8
+      md8
+    >
+      <v-card
+        height="40rem"
+        class="pt-4 pl-4"
+      >
         <div>
           <h3 class="headline mb-2">1. Не могу войти в аккаунт.</h3>
           <div class="ml-1">
