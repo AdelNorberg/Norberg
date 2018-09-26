@@ -1,8 +1,7 @@
 <template lang="html">
-  <v-card
-    height="40rem"
-    active-class="default-class chart-container"
-  />
+  <v-card>
+    Виджет для социальных иконок и т.п.
+  </v-card>
 </template>
 
 <script>

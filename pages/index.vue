@@ -4,14 +4,16 @@
       <v-flex
         xs12
         sm3
-        md2>
+        md2
+      >
         <component :is="componentBoard"/>
       </v-flex>
       <v-spacer/>
       <v-flex
         xs12
         sm8
-        md8>
+        md8
+      >
         <component :is="componentContent"/>
       </v-flex>
     </v-layout>

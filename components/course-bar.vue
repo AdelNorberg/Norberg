@@ -1,14 +1,17 @@
 <template lang="html">
   <v-card
     flat
-    color="blue lighten-3">
+    color="blue lighten-3"
+  >
     <v-layout
       align-center
-      justify-center>
+      justify-center
+    >
       <v-subheader
         v-for="(cryptoСurrency, index) in cryptoCurrencies"
         :key="index"
-        dark>
+        dark
+      >
         <v-btn flat>
           <div class="icon"/>
           ${{ cryptoСurrency.price }}

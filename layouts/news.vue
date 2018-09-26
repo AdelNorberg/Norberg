@@ -73,7 +73,6 @@ export default {
 </script>
 
 <style lang="sass" scoped>
-
 .container-layout
   min-height: 100%
 

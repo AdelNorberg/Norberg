@@ -3,7 +3,8 @@
     <v-flex
       xs12
       sm8
-      md8>
+      md8
+    >
       <v-card
         height="40rem"
         class="pt-4 pl-4"

@@ -1,40 +1,37 @@
 <template lang="html">
-  <div>
-    <v-carousel
-      delimiter-icon
-      hide-delimiters
-      hide-controls
-      interval="7000"
-    >
-      <v-carousel-item
-        v-for="(item,i) in items"
-        :key="i"
-        :src="item.src"
-      />
-    </v-carousel>
-  </div>
+  <v-layout row>
+    <v-flex xs8>
+      <v-layout row>
+        <v-flex xs7>
+          <carousel/>
+        </v-flex>
+        <v-flex xs3>
+          <news-block/>
+        </v-flex>
+      </v-layout>
+    </v-flex>
+    <v-flex xs4>
+      <v-layout>
+        <widget-soc/>
+      </v-layout>
+    </v-flex>
+  </v-layout>
 </template>
 
 <script>
+import carousel from '@/components/carousel'
+import widgetSoc from '@/components/widgets/widget-soc'
+import newsBlock from '@/components/news-block'
+
 export default {
   layout: 'news',
+  components: {
+    carousel,
+    widgetSoc,
+    newsBlock
+  },
   data () {
-    return {
-      items: [
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg'
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg'
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg'
-        },
-        {
-          src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg'
-        }
-      ]
-    }
+    return { }
   }
 }
 </script>
