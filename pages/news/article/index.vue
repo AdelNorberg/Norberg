@@ -1,7 +1,7 @@
 <template lang="html">
-  <v-card>
-    Новостная статья
-  </v-card>
+  <div class="">
+    lol almir
+  </div>
 </template>
 
 <script>

@@ -60,11 +60,11 @@ export default {
         },
         {
           name: 'NONAME',
-          path: '/noname'
+          path: '/news/noname'
         },
         {
           name: 'CONTACT',
-          path: '/contact'
+          path: '/news/contact'
         }
       ]
     }

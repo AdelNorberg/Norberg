@@ -2,10 +2,9 @@
   <v-footer
     class="pa-3"
     color="#303030"
-    height="10rem"
+    height="10rem" 
     dark
-    app
-  > 
+  >
     <v-layout>
       <v-flex
         xs3
