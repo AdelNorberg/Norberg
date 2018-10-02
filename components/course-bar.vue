@@ -1,7 +1,7 @@
 <template lang="html">
   <v-card
     flat
-    color="blue lighten-3"
+    color="#42444b"
   >
     <v-layout
       align-center
@@ -61,6 +61,3 @@ export default {
   }
 }
 </script>
-
-<style scoped lang="sass">
-</style>

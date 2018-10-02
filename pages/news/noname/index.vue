@@ -1,5 +1,5 @@
 <template lang="html">
-  <div class="">
+  <div class="container">
     фывфвы
   </div>
 </template>
@@ -9,6 +9,3 @@ export default {
   layout: 'news'
 }
 </script>
-
-<style lang="css">
-</style>

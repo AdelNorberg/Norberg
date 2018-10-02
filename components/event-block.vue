@@ -1,34 +1,26 @@
 <template lang="html">
-  <v-layout>
-    <v-flex
-      xs12
-      sm6
-      offset-sm3
+  <v-card>
+    <v-img
+      class="white--text"
+      height="300px"
+      src="https://cryptocurrencynews.com/wp-content/uploads/sites/3/2017/11/1200x630_CryptoCurrencyNews.png"
     >
-      <v-card>
-        <v-img
-          class="white--text"
-          height="200px"
-          src="https://cdn.vuetifyjs.com/images/cards/docks.jpg"
-        >
-          <v-container
-            fill-height
-            fluid
+      <v-container
+        fill-height
+        fluid
+      >
+        <v-layout fill-height>
+          <v-flex
+            xs12
+            align-end
+            flexbox
           >
-            <v-layout fill-height>
-              <v-flex
-                xs12
-                align-end
-                flexbox
-              >
-                <span class="headline">Top 10 Australian beaches</span>
-              </v-flex>
-            </v-layout>
-          </v-container>
-        </v-img>
-      </v-card>
-    </v-flex>
-  </v-layout>
+            <span class="headline">Top 10 Australian beaches</span>
+          </v-flex>
+        </v-layout>
+      </v-container>
+    </v-img>
+  </v-card>
 </template>
 
 <script>

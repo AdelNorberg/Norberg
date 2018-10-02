@@ -24,7 +24,7 @@
             dark
             depressed
             large
-            color="#5c85c9"
+            color="#42444b"
           >
             <v-icon dark>search</v-icon>
           </v-btn>
@@ -83,6 +83,6 @@ export default {
   padding-left: 1rem
   padding-right: 1rem
   height: 7rem
-  background-color: #1f74ff
+  background-color: #303030
   color: rgb(255, 255, 255)
 </style>
