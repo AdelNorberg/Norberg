@@ -1,4 +1,6 @@
 import Vuex from 'vuex'
+import _ from 'lodash'
+
 export const state = () => ({
   counter: 0
 })

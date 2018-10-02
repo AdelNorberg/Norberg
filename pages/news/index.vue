@@ -102,9 +102,6 @@ export default {
         }
       ]
     }
-  },
-  mounted () {
-    this.$store.dispatch('news/getCourse')
   }
 }
 </script>

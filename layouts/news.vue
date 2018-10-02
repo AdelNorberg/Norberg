@@ -68,6 +68,11 @@ export default {
         }
       ]
     }
+  },
+  mounted () {
+    if (!this.$store.state.news.courseCrypt.length != 0) {
+      this.$store.dispatch('news/getCourse')
+    }
   }
 }
 </script>
