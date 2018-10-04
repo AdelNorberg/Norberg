@@ -21,11 +21,11 @@
         <v-spacer/>
         <v-btn
           dark
-          depressed
+          icon
           large
-          color="#5c85c9"
+          color="#558ae2"
         >
-          <v-icon dark>search</v-icon>
+          <v-icon dark>account_circle</v-icon>
         </v-btn>
       </v-layout>
     </div>

@@ -31,7 +31,9 @@
           lg4
           xl3
         >
-          <info-block :record="item"/>
+          <nuxt-link :to="`news/articles/`">
+            <info-block :record="item"/>
+          </nuxt-link>
         </v-flex>
       </v-layout>
     </v-flex>

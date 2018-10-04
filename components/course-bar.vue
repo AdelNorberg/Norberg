@@ -1,7 +1,9 @@
 <template lang="html">
   <v-card
-    flat
+    v-dragscroll
     color="#42444b"
+    class="container-course"
+    flat
   >
     <v-layout
       align-center
@@ -32,7 +34,7 @@
             color="green"
             small
           >
-            trending_up
+            trending_up 
           </v-icon>
         </v-btn>
       </v-subheader>
@@ -40,7 +42,21 @@
   </v-card>
 </template>
 
+<script>
+import { dragscroll } from 'vue-dragscroll'
+
+export default {
+  directives: {
+   dragscroll
+ }
+}
+</script>
+
 <style lang="sass" scoped>
+.container-course
+  overflow: hidden
+  cursor: grab
+
 .price
   margin-right: 0.2rem
   margin-left: 0.2rem

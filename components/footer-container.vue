@@ -2,10 +2,15 @@
   <v-footer
     class="pa-3"
     color="#303030"
-    height="10rem" 
+    height="auto"
     dark
   >
-    <v-layout>
+    <v-layout
+      justify-center
+      align-center
+      row
+      wrap
+    >
       <v-flex
         xs3
         offset-xs1>
